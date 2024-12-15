@@ -21,6 +21,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      width: 20,
       decoration: BoxDecoration(
         color: Colors.red
       ),
