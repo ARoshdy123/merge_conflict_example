@@ -22,7 +22,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 20,
-      height: 30,
+      height: 100,
       decoration: BoxDecoration(
         color: Colors.red
       ),
