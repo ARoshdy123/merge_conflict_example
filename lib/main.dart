@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:taskk/home_view.dart';
 
 void main() {
   runApp(const MyProfile());
@@ -12,21 +13,6 @@ class MyProfile extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomeView(),
-    );
-  }
-}
-class HomeView extends StatelessWidget {
-  const HomeView({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: 20,
-      height: 100,
-      decoration: BoxDecoration(
-        color: Colors.red
-      ),
-      child: SizedBox(),
     );
   }
 }
