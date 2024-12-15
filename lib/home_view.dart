@@ -10,7 +10,7 @@ class HomeView extends StatelessWidget {
       width: 20,
       height: 100,
       decoration: BoxDecoration(
-          color: Colors.red
+          color: Colors.green
       ),
       child: SizedBox(),
     );
